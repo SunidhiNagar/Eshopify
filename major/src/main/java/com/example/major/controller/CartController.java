@@ -1,4 +1,3 @@
-/*
 
 package com.example.major.controller;
 
@@ -19,7 +18,7 @@ public class CartController {
 ProductService productService;
     @GetMapping("/addToCart/{id}")
     public String addToCart(@PathVariable int id){
-        GlobalData.cart.add(ProductService. getProductById(id).get());
+        GlobalData.cart.add(productService. getProductById(id).get());
         return "redirect:/shop";
     }
 
@@ -32,4 +31,3 @@ ProductService productService;
     }
 }
 
-*/

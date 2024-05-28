@@ -1,4 +1,3 @@
-/*
 package com.example.major.controller;
 
 import com.example.major.model.User;
@@ -29,4 +28,3 @@ public class LoginController {
 
 
 }
-*/
